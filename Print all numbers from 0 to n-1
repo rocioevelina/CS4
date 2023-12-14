@@ -1,0 +1,17 @@
+ #Task: Print all numbers from 0 to n-1
+
+#input the upper bound n
+
+
+n= int(input("Enter a number >= 0:"))
+
+counter = 0
+#while counter < n print the cpunter and inkement it
+while counter <= n:
+    
+    
+
+    powerk = 2**counter  # pow(2,counter)
+    print(f"2**{counter}=={powerk}")
+    counter += 1
+   
