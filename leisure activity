@@ -1,0 +1,13 @@
+#leisure activity
+
+temp= int(input("Please enter the temperature in ºC: "))
+velo= int(input("Please enter the wind velocity: "))
+
+if temp <= 12:
+    print("Stay inside")
+    print("Watch netflix")
+    
+else: # temp > 12:
+    if velo > 10:
+        print ("Play soccer")
+        
